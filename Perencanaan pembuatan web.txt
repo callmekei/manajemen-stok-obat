@@ -1,0 +1,138 @@
+A. Home
+    1. Membuat halaman home yang tampilannya sesuai dengan aplikasi manajemen obat [L,belum sesuai]
+    2. Membuat halaman home yang didalamnya berisi tombol login [K,L]
+B. Login & Register 
+    1. Membuat halaman login yang akan diarahkan ke halaman dashboard [K,L] 
+    2. Membuat halaman register untuk membuat akun untuk login dan diarahkan ke dashboard [K,L]
+C. Dashboard  
+    1. Membuat navbar, berisi profil user dan tombol logout [K,L]
+    2. Membuat sidebar responsif, berisi sub menu seperti Home, Master Data, Transaksi, Laporan, User Management [K,L]
+    3. Membuat main content, card conten dan card rekap jumlah data dari master data [K,L]
+    4. Membuat footer [K,L]
+D. Sub-menu Master Data
+    1. Data Obat
+        - Membuat tabel data obat [K,L]
+        - Membuat form insert data obat [K,L]
+        - Membuat form edit data obat [K]
+        - Membuat pencarian di input field nama obat, suplier, 
+        - Membuat input field select dropdown kategori yang datanya diambil dari tabel data kategori obat [K,L]
+        - Membuat input field select dropdown jenis yang datanya diambil dari tabel data jenis obat [K,L]
+        - Membuat input field select dropdown satuan yang datanya diambil dari tabel data satuan obat [K,L]
+        - Membuat input field select dropdown kategori di form edit yang datanya diambil dari tabel data kategori obat [K,L]
+        - Membuat input field select dropdown jenis di form edit yang datanya diambil dari tabel data jenis obat [K,L]
+        - Membuat input field select dropdown satuan di form edit yang datanya diambil dari tabel data satuan obat [K,L]
+        - Memvalidasi input field di form insert dan edit obat [K,L]
+        - Menampilkan kolom suplier, jumlah, harga, kadaluarsa secara otomatis ketika menambahkan obat masuk di form transaksi obat masuk [K] /belum suplier
+        - Menambahkan secara otomatis stok obat ketika ada obat masuk dari form transaksi obat masuk
+        - Memfungsikan aksi edit dan delete [K,L]
+        - Membuat alert ketika data berhasil di insert, di edit, dan di delete [K,L]
+        - Mengirimkan secara otomatis data di tabel data obat ke tabel laporan data obat [K]
+        - Merapikan halaman data obat
+    2. Data Kategori Obat
+        - Membuat tabel data kategori obat [K,L]
+        - Membuat form insert data kategori obat [K,L]
+        - Membuat form edit data kategori obat [K]
+        - Memvalidasi input field di form insert dan edit kategori obat [K,L] (belum per field)
+        - Memfungsikan aksi edit dan delete [K,L]
+        - Membuat alert ketika data berhasil di insert, di edit, dan di delete [K,L]
+        - Merapikan halaman data kategori obat
+    3. Data Jenis Obat
+        - Membuat tabel data jenis obat [K,L]
+        - Membuat form insert data jenis obat [K,L]
+        - Membuat form edit data jenis obat [K]
+        - Memvalidasi input field di form insert dan edit jenis obat [K,L] (belum per field)
+        - Memfungsikan aksi edit dan delete [K,L]
+        - Membuat alert ketika data berhasil di insert, di edit, dan di delete [K,L]
+        - Merapikan halaman data jenis obat
+    4. Data Satuan Obat
+        - Membuat tabel data satuan obat [K,L]
+        - Membuat form insert data satuan obat [K,L]
+        - Membuat form edit data satuan obat [K]
+        - Memvalidasi input field di form insert dan edit satuan obat [K,L] (belum per field)
+        - Memfungsikan aksi edit dan delete [K,L]
+        - Membuat alert ketika data berhasil di insert, di edit, dan di delete [K,L]
+        - Merapikan halaman data satuan obat
+    5. Data Suplier Obat
+        - Membuat tabel data suplier [K,L]
+        - Membuat form insert data suplier [K,L]
+        - Membuat form edit data suplier [K]
+        - Memvalidasi input field di form insert dan edit suplier [K,L] (belum per field)
+        - Memfungsikan aksi edit dan delete [K,L]
+        - Membuat alert ketika data berhasil di insert, di edit, dan di delete [K,L]
+        - Merapikan halaman data suplier
+    6. Data Konsumen Obat
+        - Membuat tabel data konsumen [K,L]
+        - Membuat form insert data konsumen [K,L]
+        - Membuat form edit data konsumen [K]
+        - Memvalidasi input field di form insert dan edit konsumen [K,L] (belum per field)
+        - Memfungsikan aksi edit dan delete [K,L]
+        - Membuat alert ketika data berhasil di insert, di edit, dan di delete [K,L] 
+        - Merapikan halaman data konsumen
+E. Sub-menu Transaksi
+    1. Obat Masuk
+        - Membuat tabel data obat masuk [K,L]
+        - Membuat form insert data obat masuk [K,L]
+        - Membuat form edit data obat masuk [K]
+        - Menampilkan no faktur otomatis pada form insert [K,L]
+        - Membuat input field select dropdown id suplier yang datanya diambil dari tabel data suplier [K]
+        - Menampilkan secara otomatis data pada input field nama suplier, no telepon, dan alamat yang datanya diambil dari tabel suplier ketika memilih id suplier [K,L]
+        - Menampilkan secara otomatis data pada input field nama suplier, no telepon, dan alamat yang datanya diambil dari tabel suplier ketika mengedit id suplier [K,L]
+        - Membuat input field select dropdown pilih obat yang datanya diambil dari tabel obat [K]
+        - Membuat tabel untuk data obat masuk yang sudah ditambahkan melalui tombol aksi tambah untuk menambahkan obat masuk lebih dari satu ke tabel obat masuk di dalam form dan di inputkan dan membuat aksi delete[K,L]
+        - Memvalidasi input field di form insert dan edit data obat masuk [K,L] / belum per field
+        - Memfungsikan aksi edit dan delete [K,L]
+        - Membuat alert ketika data berhasil di insert, di edit, dan di delete [K,L]
+        - Mengirimkan data input field harga, jumlah, dan kadaluarsa ke tabel data obat ketika data di inputkan
+        - Otomatis menambahkan jumlah obat di tabel data obat row jumlah obat 
+        - Mengirimkan secara otomatis data di tabel data obat masuk ke tabel laporan data obat masuk
+        - Merapikan halaman data obat masuk
+    2. Obat Keluar
+        - Membuat tabel data obat keluar [K,L]
+        - Membuat form insert data obat keluar [K,L]
+        - Membuat form edit data obat keluar [K]
+        - Menampilkan no faktur otomatis pada form insert [K,L]
+        - Membuat input field select dropdown id konsumen yang datanya diambil dari tabel data konsumen
+        - Menampilkan secara otomatis data pada input field nama konsumen, no telepon, dan alamat yang datanya diambil dari tabel konsumen ketika memilih id konsumen
+        - Membuat input field select dropdown pilih obat yang datanya diambil dari tabel obat
+        - Menampilkan secara otomatis data pada input field harga, dan kadaluarsa yang datanya diambil dari tabel obat ketika memilih pilih obat [K,L]
+        - Menampilkan secara otomatis data pada input field harga, dan kadaluarsa yang datanya diambil dari tabel obat ketika mengedit pilih obat [K,L]
+        - Menampilkan sub total otomatis ketika input field jumlah obat terisi
+        - Membuat tabel untuk data obat keluar yang sudah ditambahkan melalui tombol aksi tambah untuk menambahkan obat keluar lebih dari satu ke tabel obat keluar di dalam form dan di inputkan, dan membuat aksi delete
+        - Memvalidasi input field di form insert dan edit data obat keluar
+        - Memfungsikan aksi edit dan delete [K,L]
+        - Membuat alert ketika data berhasil di insert, di edit, dan di delete [K,L]
+        - Otomatis mengurangi jumlah obat di tabel data obat row jumlah obat 
+        - Membuat faktur obat keluar
+        - Merapikan halaman data obat masuk
+    3. Obat Retur
+D. Sub-menu Laporan
+    1. Laporan Data Obat
+        - Membuat halaman laporan data obat yang datanya diambil dari tabel data obat [K,L]
+        - Membuat laporan data obat per hari
+        - Membuat laporan data obat per bulan
+        - Membuat laporan data obat per tahun
+        - Membuat dan memfungsikan aksi print di halaman laporan obat [K,L] /tapi tampilan print nya belum sempurna
+    2. Laporan Data Obat Masuk
+        - Membuat halaman laporan data obat yang datanya diambil dari tabel data obat
+        - Membuat laporan data obat per hari
+        - Membuat laporan data obat per bulan
+        - Membuat laporan data obat per tahun
+        - Membuat dan memfungsikan aksi print di halaman laporan obat 
+    3. Laporan DataObat Keluar
+        - Membuat halaman laporan data obat yang datanya diambil dari tabel data obat 
+        - Membuat laporan data obat per hari
+        - Membuat laporan data obat per bulan
+        - Membuat laporan data obat per tahun
+        - Membuat dan memfungsikan aksi print di halaman laporan obat
+    4. Laporan DataObat Retur
+F. Sub-menu User Management
+G. Database
+    1. Merancang database [K,L]
+    2. Membuat database [K,L]
+    3. Merelasikan database [K,L]
+H. Multi User
+     
+
+------- NOTE -------
+K => sudah dikerjakan 
+L => sudah dilaporkan

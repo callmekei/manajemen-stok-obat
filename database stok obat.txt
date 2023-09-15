@@ -1,0 +1,76 @@
+Perancangan Database Stok Obat
+
+Tabel : User                                                            
+Field            Type
+user_id          int(11)Primary Key
+user_name        varchar(20) 
+user_username    varchar(20)
+user_pass        varchar(64)
+user_email       varchar(20)
+user_role        enum('Admin','Gudang','Pimpinan')
+created_date     timestamp
+update_at        timestamp
+
+Tabel : Obat
+Field            Type
+drug_id          int(11)Primary Key
+drug_name        varchar(20)
+kategori         varchar(20)
+satuan           varchar(20)
+jumlah           int(20)
+harga            varchar(20)
+kadaluarsa       date
+created_date     timestamp
+update_at        timestamp
+
+Tabel : Suplier
+Field            Type
+suplier_id       int(11)Primary Key
+suplier_name     varchar(20)
+suplier_address  varchar(100)
+suplier_telp     int(20)
+created_date     timestamp
+update_at        timestamp
+
+Tabel : Konsumen
+Field            Type
+cust_id          int(11)Primary Key
+cust_name        varchar(20)
+cust_addres      varchar(20)
+cust_telp     int(20)
+created_date     timestamp
+update_at        timestamp
+
+Tabel : Obat Masuk
+Field            Type
+id               int(11)Primary Key
+no_faktur        varchar(20)
+cust_id          varchar(20)
+cust_name        varchar(64)
+tgl_keluar       date
+no_telp          varchar(20)
+alamat           varchar(30)
+nama_obat        varchar(20)
+harga_obat       varchar(20)
+jml_obat         int(15)
+sub_total        varchar(20)
+kadaluarsa       date
+created_date     timestamp
+update_at        timestamp
+
+Tabel : Obat Keluar
+Field            Type
+id               int(11)Primary Key
+no_faktur        varchar(20)
+cust_id          varchar(20)
+cust_name        varchar(64)
+tgl_keluar       date
+no_telp          varchar(20)
+alamat           varchar(30)
+nama_obat        varchar(20)
+harga_obat       varchar(20)
+jml_obat         int(15)
+sub_total        varchar(20)
+kadaluarsa       date
+created_date     timestamp
+update_at        timestamp

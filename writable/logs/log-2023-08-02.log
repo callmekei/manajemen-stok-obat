@@ -1,0 +1,272 @@
+INFO - 2023-08-02 03:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 03:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 03:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 03:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 03:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 03:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 03:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 05:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-02 05:35:14 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, obejct given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 154.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(154): mysqli_result->fetch_object('obejct')
+ 2 SYSTEMPATH\Database\BaseResult.php(159): CodeIgniter\Database\MySQLi\Result->fetchObject('obejct')
+ 3 SYSTEMPATH\Database\BaseResult.php(114): CodeIgniter\Database\BaseResult->getCustomResultObject('obejct')
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseResult->getResult('obejct')
+ 5 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\ObatKeluar.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatKeluar->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatKeluar))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+CRITICAL - 2023-08-02 05:37:58 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, obejct given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 154.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(154): mysqli_result->fetch_object('obejct')
+ 2 SYSTEMPATH\Database\BaseResult.php(159): CodeIgniter\Database\MySQLi\Result->fetchObject('obejct')
+ 3 SYSTEMPATH\Database\BaseResult.php(114): CodeIgniter\Database\BaseResult->getCustomResultObject('obejct')
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseResult->getResult('obejct')
+ 5 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\ObatKeluar.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatKeluar->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatKeluar))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+INFO - 2023-08-02 05:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 07:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 07:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 07:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-02 07:05:44 --> Invalid file: "admin/masterdata/insertobatkeluar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/masterdata/insertobatkeluar.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/masterdata/insertobatkeluar', [], true)
+ 3 APPPATH\Controllers\ObatKeluar.php(19): view('admin/masterdata/insertobatkeluar')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatKeluar->insert_data()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatKeluar))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+INFO - 2023-08-02 07:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 07:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 07:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-02 07:23:12 --> mysqli_sql_exception: Unknown column 'kadaluarsa' in 'field list' in C:\xampp\htdocs\apotek\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\apotek\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ob...', 0)
+#1 C:\xampp\htdocs\apotek\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ob...')
+#2 C:\xampp\htdocs\apotek\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ob...')
+#3 C:\xampp\htdocs\apotek\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ob...', Array, false)
+#4 C:\xampp\htdocs\apotek\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apotek\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\apotek\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\apotek\app\Controllers\ObatKeluar.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\apotek\system\CodeIgniter.php(932): App\Controllers\ObatKeluar->insert_process()
+#9 C:\xampp\htdocs\apotek\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatKeluar))
+#10 C:\xampp\htdocs\apotek\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\apotek\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-02 07:23:12 --> Unknown column 'kadaluarsa' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `obat_keluar` (`no_faktur`, `nama_konsumen`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'5\', \'f\', \'2023-08-03\', \'4\', \'ff\', \'d\', \'d\', \'3\', \'2023-08-18\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `obat_keluar` (`no_faktur`, `nama_konsumen`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'5\', \'f\', \'2023-08-03\', \'4\', \'ff\', \'d\', \'d\', \'3\', \'2023-08-18\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `obat_keluar` (`no_faktur`, `nama_konsumen`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'5\', \'f\', \'2023-08-03\', \'4\', \'ff\', \'d\', \'d\', \'3\', \'2023-08-18\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `obat_keluar` (`no_faktur`, `nama_konsumen`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (:no_faktur:, :nama_konsumen:, :tanggal:, :no_telp:, :alamat:, :id_obat:, :harga:, :jumlah:, :kadaluarsa:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ObatKeluar.php(25): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatKeluar->insert_process()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatKeluar))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+ERROR - 2023-08-02 07:24:21 --> mysqli_sql_exception: Unknown column 'kadaluarsa' in 'field list' in C:\xampp\htdocs\apotek\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\apotek\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ob...', 0)
+#1 C:\xampp\htdocs\apotek\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ob...')
+#2 C:\xampp\htdocs\apotek\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ob...')
+#3 C:\xampp\htdocs\apotek\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ob...', Array, false)
+#4 C:\xampp\htdocs\apotek\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apotek\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\apotek\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\apotek\app\Controllers\ObatKeluar.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\apotek\system\CodeIgniter.php(932): App\Controllers\ObatKeluar->insert_process()
+#9 C:\xampp\htdocs\apotek\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatKeluar))
+#10 C:\xampp\htdocs\apotek\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\apotek\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-02 07:24:21 --> Unknown column 'kadaluarsa' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `obat_keluar` (`no_faktur`, `nama_konsumen`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'5\', \'f\', \'2023-08-03\', \'4\', \'ff\', \'d\', \'d\', \'3\', \'2023-08-18\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `obat_keluar` (`no_faktur`, `nama_konsumen`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'5\', \'f\', \'2023-08-03\', \'4\', \'ff\', \'d\', \'d\', \'3\', \'2023-08-18\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `obat_keluar` (`no_faktur`, `nama_konsumen`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'5\', \'f\', \'2023-08-03\', \'4\', \'ff\', \'d\', \'d\', \'3\', \'2023-08-18\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `obat_keluar` (`no_faktur`, `nama_konsumen`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (:no_faktur:, :nama_konsumen:, :tanggal:, :no_telp:, :alamat:, :id_obat:, :harga:, :jumlah:, :kadaluarsa:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ObatKeluar.php(25): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatKeluar->insert_process()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatKeluar))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+INFO - 2023-08-02 07:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-02 07:24:27 --> mysqli_sql_exception: Unknown column 'kadaluarsa' in 'field list' in C:\xampp\htdocs\apotek\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\apotek\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ob...', 0)
+#1 C:\xampp\htdocs\apotek\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ob...')
+#2 C:\xampp\htdocs\apotek\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ob...')
+#3 C:\xampp\htdocs\apotek\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ob...', Array, false)
+#4 C:\xampp\htdocs\apotek\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apotek\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\apotek\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\apotek\app\Controllers\ObatKeluar.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\apotek\system\CodeIgniter.php(932): App\Controllers\ObatKeluar->insert_process()
+#9 C:\xampp\htdocs\apotek\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatKeluar))
+#10 C:\xampp\htdocs\apotek\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\apotek\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-02 07:24:27 --> Unknown column 'kadaluarsa' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `obat_keluar` (`no_faktur`, `nama_konsumen`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'5\', \'f\', \'2023-08-03\', \'4\', \'ff\', \'d\', \'d\', \'3\', \'2023-08-18\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `obat_keluar` (`no_faktur`, `nama_konsumen`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'5\', \'f\', \'2023-08-03\', \'4\', \'ff\', \'d\', \'d\', \'3\', \'2023-08-18\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `obat_keluar` (`no_faktur`, `nama_konsumen`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'5\', \'f\', \'2023-08-03\', \'4\', \'ff\', \'d\', \'d\', \'3\', \'2023-08-18\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `obat_keluar` (`no_faktur`, `nama_konsumen`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (:no_faktur:, :nama_konsumen:, :tanggal:, :no_telp:, :alamat:, :id_obat:, :harga:, :jumlah:, :kadaluarsa:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ObatKeluar.php(25): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatKeluar->insert_process()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatKeluar))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+ERROR - 2023-08-02 07:25:14 --> mysqli_sql_exception: Unknown column 'kadaluarsa' in 'field list' in C:\xampp\htdocs\apotek\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\apotek\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ob...', 0)
+#1 C:\xampp\htdocs\apotek\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ob...')
+#2 C:\xampp\htdocs\apotek\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ob...')
+#3 C:\xampp\htdocs\apotek\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ob...', Array, false)
+#4 C:\xampp\htdocs\apotek\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apotek\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\apotek\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\apotek\app\Controllers\ObatKeluar.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\apotek\system\CodeIgniter.php(932): App\Controllers\ObatKeluar->insert_process()
+#9 C:\xampp\htdocs\apotek\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatKeluar))
+#10 C:\xampp\htdocs\apotek\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\apotek\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-02 07:25:14 --> Unknown column 'kadaluarsa' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `obat_keluar` (`no_faktur`, `nama_konsumen`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'5\', \'f\', \'2023-08-03\', \'4\', \'ff\', \'d\', \'d\', \'3\', \'2023-08-18\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `obat_keluar` (`no_faktur`, `nama_konsumen`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'5\', \'f\', \'2023-08-03\', \'4\', \'ff\', \'d\', \'d\', \'3\', \'2023-08-18\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `obat_keluar` (`no_faktur`, `nama_konsumen`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'5\', \'f\', \'2023-08-03\', \'4\', \'ff\', \'d\', \'d\', \'3\', \'2023-08-18\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `obat_keluar` (`no_faktur`, `nama_konsumen`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (:no_faktur:, :nama_konsumen:, :tanggal:, :no_telp:, :alamat:, :id_obat:, :harga:, :jumlah:, :kadaluarsa:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ObatKeluar.php(25): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatKeluar->insert_process()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatKeluar))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+ERROR - 2023-08-02 07:25:18 --> mysqli_sql_exception: Unknown column 'kadaluarsa' in 'field list' in C:\xampp\htdocs\apotek\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\apotek\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ob...', 0)
+#1 C:\xampp\htdocs\apotek\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ob...')
+#2 C:\xampp\htdocs\apotek\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ob...')
+#3 C:\xampp\htdocs\apotek\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ob...', Array, false)
+#4 C:\xampp\htdocs\apotek\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apotek\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\apotek\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\apotek\app\Controllers\ObatKeluar.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\apotek\system\CodeIgniter.php(932): App\Controllers\ObatKeluar->insert_process()
+#9 C:\xampp\htdocs\apotek\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatKeluar))
+#10 C:\xampp\htdocs\apotek\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\apotek\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-02 07:25:18 --> Unknown column 'kadaluarsa' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `obat_keluar` (`no_faktur`, `nama_konsumen`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'5\', \'f\', \'2023-08-03\', \'4\', \'ff\', \'d\', \'d\', \'3\', \'2023-08-18\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `obat_keluar` (`no_faktur`, `nama_konsumen`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'5\', \'f\', \'2023-08-03\', \'4\', \'ff\', \'d\', \'d\', \'3\', \'2023-08-18\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `obat_keluar` (`no_faktur`, `nama_konsumen`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'5\', \'f\', \'2023-08-03\', \'4\', \'ff\', \'d\', \'d\', \'3\', \'2023-08-18\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `obat_keluar` (`no_faktur`, `nama_konsumen`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (:no_faktur:, :nama_konsumen:, :tanggal:, :no_telp:, :alamat:, :id_obat:, :harga:, :jumlah:, :kadaluarsa:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ObatKeluar.php(25): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatKeluar->insert_process()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatKeluar))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+INFO - 2023-08-02 07:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-02 07:25:23 --> mysqli_sql_exception: Unknown column 'kadaluarsa' in 'field list' in C:\xampp\htdocs\apotek\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\apotek\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ob...', 0)
+#1 C:\xampp\htdocs\apotek\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ob...')
+#2 C:\xampp\htdocs\apotek\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ob...')
+#3 C:\xampp\htdocs\apotek\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ob...', Array, false)
+#4 C:\xampp\htdocs\apotek\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apotek\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\apotek\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\apotek\app\Controllers\ObatKeluar.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\apotek\system\CodeIgniter.php(932): App\Controllers\ObatKeluar->insert_process()
+#9 C:\xampp\htdocs\apotek\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatKeluar))
+#10 C:\xampp\htdocs\apotek\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\apotek\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-02 07:25:23 --> Unknown column 'kadaluarsa' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `obat_keluar` (`no_faktur`, `nama_konsumen`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'5\', \'f\', \'2023-08-03\', \'4\', \'ff\', \'d\', \'d\', \'3\', \'2023-08-18\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `obat_keluar` (`no_faktur`, `nama_konsumen`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'5\', \'f\', \'2023-08-03\', \'4\', \'ff\', \'d\', \'d\', \'3\', \'2023-08-18\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `obat_keluar` (`no_faktur`, `nama_konsumen`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'5\', \'f\', \'2023-08-03\', \'4\', \'ff\', \'d\', \'d\', \'3\', \'2023-08-18\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `obat_keluar` (`no_faktur`, `nama_konsumen`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (:no_faktur:, :nama_konsumen:, :tanggal:, :no_telp:, :alamat:, :id_obat:, :harga:, :jumlah:, :kadaluarsa:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ObatKeluar.php(25): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatKeluar->insert_process()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatKeluar))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+INFO - 2023-08-02 07:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-02 07:28:08 --> Undefined property: stdClass::$nama_suplier
+in APPPATH\Views\admin\masterdata\dataobatkeluar.php on line 98.
+ 1 APPPATH\Views\admin\masterdata\dataobatkeluar.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_suplier', 'C:\\xampp\\htdocs\\apotek\\app\\Views\\admin\\masterdata\\dataobatkeluar.php', 98)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\apotek\\app\\Views\\admin\\masterdata\\dataobatkeluar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/masterdata/dataobatkeluar', [], true)
+ 5 APPPATH\Controllers\ObatKeluar.php(14): view('admin/masterdata/dataobatkeluar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatKeluar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatKeluar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+INFO - 2023-08-02 07:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 11:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 11:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 11:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 11:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 11:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 11:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 11:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 11:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 11:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 11:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 11:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 11:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 11:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 11:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 11:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 11:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 11:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 11:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-02 11:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

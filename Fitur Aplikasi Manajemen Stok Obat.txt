@@ -1,0 +1,31 @@
+Fitur Aplikasi Manajemen Stok Obat
+A. Home
+    1. Halaman home yang tampilannya sesuai dengan aplikasi manajemen obat
+    2. Halaman home yang didalamnya berisi tombol login
+B. Login & Register 
+    1. Halaman login yang akan diarahkan ke halaman dashboard
+    2. Halaman register untuk membuat akun untuk login dan diarahkan ke dashboard
+C. Dashboard  
+    1. Navbar, berisi profil user dan tombol logout
+    2. Sidebar, berisi sub menu seperti Home, Master Data, Transaksi, Laporan, User Management
+    3. Main content, card conten dan card rekap jumlah data dari master data
+    4. Footer
+D. Sub-menu Master Data
+    1. Data Obat
+    2. Data Kategori Obat
+    3. Data Jenis Obat
+    4. Data Satuan Obat
+    5. Data Suplier Obat
+    6. Data Konsumen Obat
+E. Sub-menu Transaksi
+    1. Obat Masuk
+    2. Obat Keluar
+    3. Obat Retur
+D. Sub-menu Laporan
+    1. Laporan Data Obat
+    2. Laporan Data Obat Masuk
+    3. Laporan DataObat Keluar
+    4. Laporan DataObat Retur
+F. Sub-menu User Management
+     
+

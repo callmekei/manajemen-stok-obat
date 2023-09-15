@@ -1,0 +1,439 @@
+INFO - 2023-08-04 01:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 01:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 01:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 01:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 01:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 01:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 02:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 03:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 03:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 04:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 04:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 04:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 11:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 11:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 11:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 11:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 11:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 11:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 11:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 11:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 11:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 11:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 11:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 11:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 11:52:45 --> Call to undefined method App\Models\ObatMasukModel::getAutoIncrementNoFaktur
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\ObatMasuk.php(20): CodeIgniter\Model->__call('getAutoIncrementNoFaktur', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatMasuk->insert_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+CRITICAL - 2023-08-04 12:03:06 --> Unsupported operand types: string + int
+in APPPATH\Models\ObatMasukModel.php on line 22.
+ 1 APPPATH\Controllers\ObatMasuk.php(20): App\Models\ObatMasukModel->getAutoIncrementNoFaktur()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatMasuk->insert_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+INFO - 2023-08-04 12:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 12:03:15 --> Unsupported operand types: string + int
+in APPPATH\Models\ObatMasukModel.php on line 22.
+ 1 APPPATH\Controllers\ObatMasuk.php(20): App\Models\ObatMasukModel->getAutoIncrementNoFaktur()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatMasuk->insert_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+INFO - 2023-08-04 12:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 12:12:42 --> Undefined variable $no_faktur
+in APPPATH\Views\admin\masterdata\dataobatmasuk.php on line 96.
+ 1 APPPATH\Views\admin\masterdata\dataobatmasuk.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_faktur', 'C:\\xampp\\htdocs\\apotek\\app\\Views\\admin\\masterdata\\dataobatmasuk.php', 96)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\apotek\\app\\Views\\admin\\masterdata\\dataobatmasuk.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/masterdata/dataobatmasuk', [], true)
+ 5 APPPATH\Controllers\ObatMasuk.php(14): view('admin/masterdata/dataobatmasuk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatMasuk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+INFO - 2023-08-04 12:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 12:13:14 --> Undefined variable $no_faktur
+in APPPATH\Views\admin\masterdata\dataobatmasuk.php on line 96.
+ 1 APPPATH\Views\admin\masterdata\dataobatmasuk.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_faktur', 'C:\\xampp\\htdocs\\apotek\\app\\Views\\admin\\masterdata\\dataobatmasuk.php', 96)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\apotek\\app\\Views\\admin\\masterdata\\dataobatmasuk.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/masterdata/dataobatmasuk', [], true)
+ 5 APPPATH\Controllers\ObatMasuk.php(14): view('admin/masterdata/dataobatmasuk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatMasuk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+INFO - 2023-08-04 12:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 12:24:08 --> Undefined variable $no_faktur
+in APPPATH\Views\admin\masterdata\dataobatmasuk.php on line 96.
+ 1 APPPATH\Views\admin\masterdata\dataobatmasuk.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_faktur', 'C:\\xampp\\htdocs\\apotek\\app\\Views\\admin\\masterdata\\dataobatmasuk.php', 96)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\apotek\\app\\Views\\admin\\masterdata\\dataobatmasuk.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/masterdata/dataobatmasuk', [], true)
+ 5 APPPATH\Controllers\ObatMasuk.php(14): view('admin/masterdata/dataobatmasuk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatMasuk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+CRITICAL - 2023-08-04 12:24:26 --> Cannot use object of type stdClass as array
+in APPPATH\Models\ObatMasukModel.php on line 21.
+ 1 APPPATH\Controllers\ObatMasuk.php(20): App\Models\ObatMasukModel->generateNomorFaktur()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatMasuk->insert_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+INFO - 2023-08-04 12:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 12:24:28 --> Undefined variable $no_faktur
+in APPPATH\Views\admin\masterdata\dataobatmasuk.php on line 96.
+ 1 APPPATH\Views\admin\masterdata\dataobatmasuk.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_faktur', 'C:\\xampp\\htdocs\\apotek\\app\\Views\\admin\\masterdata\\dataobatmasuk.php', 96)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\apotek\\app\\Views\\admin\\masterdata\\dataobatmasuk.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/masterdata/dataobatmasuk', [], true)
+ 5 APPPATH\Controllers\ObatMasuk.php(14): view('admin/masterdata/dataobatmasuk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatMasuk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+INFO - 2023-08-04 12:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 12:24:30 --> Undefined variable $no_faktur
+in APPPATH\Views\admin\masterdata\dataobatmasuk.php on line 96.
+ 1 APPPATH\Views\admin\masterdata\dataobatmasuk.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_faktur', 'C:\\xampp\\htdocs\\apotek\\app\\Views\\admin\\masterdata\\dataobatmasuk.php', 96)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\apotek\\app\\Views\\admin\\masterdata\\dataobatmasuk.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/masterdata/dataobatmasuk', [], true)
+ 5 APPPATH\Controllers\ObatMasuk.php(14): view('admin/masterdata/dataobatmasuk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatMasuk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+INFO - 2023-08-04 12:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 12:24:40 --> Undefined variable $no_faktur
+in APPPATH\Views\admin\masterdata\dataobatmasuk.php on line 96.
+ 1 APPPATH\Views\admin\masterdata\dataobatmasuk.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_faktur', 'C:\\xampp\\htdocs\\apotek\\app\\Views\\admin\\masterdata\\dataobatmasuk.php', 96)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\apotek\\app\\Views\\admin\\masterdata\\dataobatmasuk.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/masterdata/dataobatmasuk', [], true)
+ 5 APPPATH\Controllers\ObatMasuk.php(14): view('admin/masterdata/dataobatmasuk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatMasuk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+INFO - 2023-08-04 12:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 12:24:51 --> Undefined variable $no_faktur
+in APPPATH\Views\admin\masterdata\dataobatmasuk.php on line 96.
+ 1 APPPATH\Views\admin\masterdata\dataobatmasuk.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_faktur', 'C:\\xampp\\htdocs\\apotek\\app\\Views\\admin\\masterdata\\dataobatmasuk.php', 96)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\apotek\\app\\Views\\admin\\masterdata\\dataobatmasuk.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/masterdata/dataobatmasuk', [], true)
+ 5 APPPATH\Controllers\ObatMasuk.php(14): view('admin/masterdata/dataobatmasuk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatMasuk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+INFO - 2023-08-04 12:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 12:25:00 --> Cannot use object of type stdClass as array
+in APPPATH\Models\ObatMasukModel.php on line 21.
+ 1 APPPATH\Controllers\ObatMasuk.php(20): App\Models\ObatMasukModel->generateNomorFaktur()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatMasuk->insert_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+CRITICAL - 2023-08-04 12:29:36 --> Unsupported operand types: string + int
+in APPPATH\Models\ObatMasukModel.php on line 21.
+ 1 APPPATH\Controllers\ObatMasuk.php(20): App\Models\ObatMasukModel->generateNomorFaktur()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatMasuk->insert_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+INFO - 2023-08-04 12:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 12:30:11 --> Undefined variable $next_no_faktur
+in APPPATH\Views\admin\masterdata\insertobatmasuk.php on line 91.
+ 1 APPPATH\Views\admin\masterdata\insertobatmasuk.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_no_faktur', 'C:\\xampp\\htdocs\\apotek\\app\\Views\\admin\\masterdata\\insertobatmasuk.php', 91)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\apotek\\app\\Views\\admin\\masterdata\\insertobatmasuk.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/masterdata/insertobatmasuk', [], true)
+ 5 APPPATH\Controllers\ObatMasuk.php(21): view('admin/masterdata/insertobatmasuk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatMasuk->insert_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+CRITICAL - 2023-08-04 12:30:51 --> Cannot use object of type stdClass as array
+in APPPATH\Models\ObatMasukModel.php on line 21.
+ 1 APPPATH\Controllers\ObatMasuk.php(20): App\Models\ObatMasukModel->generateNomorFaktur()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatMasuk->insert_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+CRITICAL - 2023-08-04 12:30:59 --> Cannot use object of type stdClass as array
+in APPPATH\Models\ObatMasukModel.php on line 21.
+ 1 APPPATH\Controllers\ObatMasuk.php(20): App\Models\ObatMasukModel->generateNomorFaktur()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatMasuk->insert_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+CRITICAL - 2023-08-04 12:31:07 --> Unsupported operand types: string + int
+in APPPATH\Models\ObatMasukModel.php on line 21.
+ 1 APPPATH\Controllers\ObatMasuk.php(20): App\Models\ObatMasukModel->generateNomorFaktur()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatMasuk->insert_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+CRITICAL - 2023-08-04 12:31:15 --> Unsupported operand types: string + int
+in APPPATH\Models\ObatMasukModel.php on line 21.
+ 1 APPPATH\Controllers\ObatMasuk.php(20): App\Models\ObatMasukModel->generateNomorFaktur()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatMasuk->insert_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+INFO - 2023-08-04 12:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 12:37:50 --> Undefined variable $id_suplier
+in APPPATH\Views\admin\masterdata\insertobatmasuk.php on line 97.
+ 1 APPPATH\Views\admin\masterdata\insertobatmasuk.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_suplier', 'C:\\xampp\\htdocs\\apotek\\app\\Views\\admin\\masterdata\\insertobatmasuk.php', 97)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\apotek\\app\\Views\\admin\\masterdata\\insertobatmasuk.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/masterdata/insertobatmasuk', [], true)
+ 5 APPPATH\Controllers\ObatMasuk.php(21): view('admin/masterdata/insertobatmasuk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatMasuk->insert_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+INFO - 2023-08-04 12:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 12:48:31 --> Call to undefined method App\Models\ObatMasukModel::generateNomorFaktur
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\ObatMasuk.php(20): CodeIgniter\Model->__call('generateNomorFaktur', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatMasuk->insert_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+INFO - 2023-08-04 12:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-04 12:53:07 --> mysqli_sql_exception: Duplicate entry '0001' for key 'no_faktur' in C:\xampp\htdocs\apotek\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\apotek\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ob...', 0)
+#1 C:\xampp\htdocs\apotek\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ob...')
+#2 C:\xampp\htdocs\apotek\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ob...')
+#3 C:\xampp\htdocs\apotek\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ob...', Array, false)
+#4 C:\xampp\htdocs\apotek\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apotek\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\apotek\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\apotek\app\Controllers\ObatMasuk.php(40): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\apotek\system\CodeIgniter.php(932): App\Controllers\ObatMasuk->insert_process()
+#9 C:\xampp\htdocs\apotek\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+#10 C:\xampp\htdocs\apotek\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\apotek\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-04 12:53:07 --> Duplicate entry '0001' for key 'no_faktur'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `obat_masuk` (`no_faktur`, `id_suplier`, `nama_suplier`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'0001\', \'22\', \'2\', \'0002-02-22\', \'2\', \'2\', \'2\', \'2\', \'2\', \'0002-02-22\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `obat_masuk` (`no_faktur`, `id_suplier`, `nama_suplier`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'0001\', \'22\', \'2\', \'0002-02-22\', \'2\', \'2\', \'2\', \'2\', \'2\', \'0002-02-22\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `obat_masuk` (`no_faktur`, `id_suplier`, `nama_suplier`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'0001\', \'22\', \'2\', \'0002-02-22\', \'2\', \'2\', \'2\', \'2\', \'2\', \'0002-02-22\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `obat_masuk` (`no_faktur`, `id_suplier`, `nama_suplier`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (:no_faktur:, :id_suplier:, :nama_suplier:, :tanggal:, :no_telp:, :alamat:, :id_obat:, :harga:, :jumlah:, :kadaluarsa:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ObatMasuk.php(40): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatMasuk->insert_process()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+ERROR - 2023-08-04 12:56:05 --> mysqli_sql_exception: Duplicate entry '0001' for key 'no_faktur' in C:\xampp\htdocs\apotek\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\apotek\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ob...', 0)
+#1 C:\xampp\htdocs\apotek\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ob...')
+#2 C:\xampp\htdocs\apotek\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ob...')
+#3 C:\xampp\htdocs\apotek\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ob...', Array, false)
+#4 C:\xampp\htdocs\apotek\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apotek\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\apotek\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\apotek\app\Controllers\ObatMasuk.php(40): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\apotek\system\CodeIgniter.php(932): App\Controllers\ObatMasuk->insert_process()
+#9 C:\xampp\htdocs\apotek\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+#10 C:\xampp\htdocs\apotek\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\apotek\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-04 12:56:05 --> Duplicate entry '0001' for key 'no_faktur'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `obat_masuk` (`no_faktur`, `id_suplier`, `nama_suplier`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'0001\', \'22\', \'2\', \'0002-02-22\', \'2\', \'2\', \'2\', \'2\', \'2\', \'0002-02-22\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `obat_masuk` (`no_faktur`, `id_suplier`, `nama_suplier`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'0001\', \'22\', \'2\', \'0002-02-22\', \'2\', \'2\', \'2\', \'2\', \'2\', \'0002-02-22\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `obat_masuk` (`no_faktur`, `id_suplier`, `nama_suplier`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'0001\', \'22\', \'2\', \'0002-02-22\', \'2\', \'2\', \'2\', \'2\', \'2\', \'0002-02-22\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `obat_masuk` (`no_faktur`, `id_suplier`, `nama_suplier`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (:no_faktur:, :id_suplier:, :nama_suplier:, :tanggal:, :no_telp:, :alamat:, :id_obat:, :harga:, :jumlah:, :kadaluarsa:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ObatMasuk.php(40): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatMasuk->insert_process()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+INFO - 2023-08-04 12:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-04 12:57:26 --> mysqli_sql_exception: Duplicate entry '0001' for key 'no_faktur' in C:\xampp\htdocs\apotek\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\apotek\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ob...', 0)
+#1 C:\xampp\htdocs\apotek\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ob...')
+#2 C:\xampp\htdocs\apotek\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ob...')
+#3 C:\xampp\htdocs\apotek\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ob...', Array, false)
+#4 C:\xampp\htdocs\apotek\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apotek\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\apotek\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\apotek\app\Controllers\ObatMasuk.php(40): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\apotek\system\CodeIgniter.php(932): App\Controllers\ObatMasuk->insert_process()
+#9 C:\xampp\htdocs\apotek\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+#10 C:\xampp\htdocs\apotek\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\apotek\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-04 12:57:26 --> Duplicate entry '0001' for key 'no_faktur'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `obat_masuk` (`no_faktur`, `id_suplier`, `nama_suplier`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'0001\', \'1\', \'1\', \'0001-11-11\', \'1\', \'1\', \'1\', \'1\', \'1\', \'0001-11-11\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `obat_masuk` (`no_faktur`, `id_suplier`, `nama_suplier`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'0001\', \'1\', \'1\', \'0001-11-11\', \'1\', \'1\', \'1\', \'1\', \'1\', \'0001-11-11\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `obat_masuk` (`no_faktur`, `id_suplier`, `nama_suplier`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'0001\', \'1\', \'1\', \'0001-11-11\', \'1\', \'1\', \'1\', \'1\', \'1\', \'0001-11-11\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `obat_masuk` (`no_faktur`, `id_suplier`, `nama_suplier`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (:no_faktur:, :id_suplier:, :nama_suplier:, :tanggal:, :no_telp:, :alamat:, :id_obat:, :harga:, :jumlah:, :kadaluarsa:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ObatMasuk.php(40): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatMasuk->insert_process()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+ERROR - 2023-08-04 12:58:26 --> mysqli_sql_exception: Duplicate entry '0001' for key 'no_faktur' in C:\xampp\htdocs\apotek\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\apotek\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ob...', 0)
+#1 C:\xampp\htdocs\apotek\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ob...')
+#2 C:\xampp\htdocs\apotek\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ob...')
+#3 C:\xampp\htdocs\apotek\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ob...', Array, false)
+#4 C:\xampp\htdocs\apotek\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apotek\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\apotek\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\apotek\app\Controllers\ObatMasuk.php(40): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\apotek\system\CodeIgniter.php(932): App\Controllers\ObatMasuk->insert_process()
+#9 C:\xampp\htdocs\apotek\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+#10 C:\xampp\htdocs\apotek\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\apotek\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-04 12:58:26 --> Duplicate entry '0001' for key 'no_faktur'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `obat_masuk` (`no_faktur`, `id_suplier`, `nama_suplier`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'0001\', \'1\', \'1\', \'0001-11-11\', \'1\', \'1\', \'1\', \'1\', \'1\', \'0001-11-11\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `obat_masuk` (`no_faktur`, `id_suplier`, `nama_suplier`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'0001\', \'1\', \'1\', \'0001-11-11\', \'1\', \'1\', \'1\', \'1\', \'1\', \'0001-11-11\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `obat_masuk` (`no_faktur`, `id_suplier`, `nama_suplier`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (\'0001\', \'1\', \'1\', \'0001-11-11\', \'1\', \'1\', \'1\', \'1\', \'1\', \'0001-11-11\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `obat_masuk` (`no_faktur`, `id_suplier`, `nama_suplier`, `tanggal`, `no_telp`, `alamat`, `id_obat`, `harga`, `jumlah`, `kadaluarsa`) VALUES (:no_faktur:, :id_suplier:, :nama_suplier:, :tanggal:, :no_telp:, :alamat:, :id_obat:, :harga:, :jumlah:, :kadaluarsa:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ObatMasuk.php(40): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ObatMasuk->insert_process()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ObatMasuk))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\apotek\\public\\index.php')
+INFO - 2023-08-04 12:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 12:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
